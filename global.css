@@ -44,6 +44,7 @@ button {
   font-size: var(--fs-400);
   font-family: var(--ff-primary);
   color: var(--black);
+  width: 10em;
 }
 
 ul,

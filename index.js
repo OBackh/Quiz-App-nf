@@ -17,12 +17,14 @@ const answer = document.querySelector('[data-js="answer"]');
 
 button.addEventListener("click", () => {
   answer.classList.toggle("hidden");
+  //answer.textContent = 'Hello';
+  console.log(answer);
   console.log("toggled between answer is visible/invisible");
 });
 
 // Change Text on active button
 
 button.addEventListener("click", () => {
-  button.textContent("hidden");
-  console.log("Changed Text on active button");
+  let text = button.textContent;
+  button.textContent = text == "Hide answer" ? "Show answer" : "Hide answer";
 });
