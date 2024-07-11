@@ -5,6 +5,61 @@
   position: relative;
 }
 
+.form {
+  border: 1px solid var(--secondary);
+  padding: 2rem;
+  _text-align: center;
+  position: relative;
+  top: 130px;
+  max-width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: var(--secondary-light);
+}
+
+.form legend {
+  background-color: var(--secondary-light);
+  color: var(--secondary);
+  padding: 1px 10px 0px 10px;
+  margin: 5px;
+  border: 1px solid var(--secondary);
+}
+
+.form-tag-input {
+  border: 0px;
+}
+
+.fieldset-form {
+  align-self: center;
+  background-color: var(--secondary);
+  margin: 10px;
+  font-weight: bolder;
+  border: 0px;
+}
+
+.form-textarea {
+  max-width: 360px;
+  width: 340px;
+  height: 60px;
+  max-height: 80px;
+  border: 1px solid var(--secondary);
+}
+
+.submit-button {
+  _text-align: right;
+  width: 6em;
+  position: relative;
+  align-self: flex-end;
+  top: 8px;
+  left: 8px;
+  border: 0px solid var(--secondary);
+  background-color: var(--secondary);
+  color: var(--secondary-light);
+  font-size: larger;
+  border-radius: 9px;
+}
+
 .card__question {
   margin: 0 0 2rem;
 }
@@ -55,4 +110,17 @@
   color: var(--white);
   border-radius: 4px;
   padding: 0 5px;
+}
+
+.tag-input {
+  align-self: self-start;
+}
+
+.cardContainer {
+  position: relative;
+  top: +150px;
+}
+
+.card-list__item {
+  color: black;
 }
