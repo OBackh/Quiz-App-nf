@@ -38,6 +38,8 @@ body {
   line-height: 1.5;
   font-family: var(--ff-primary);
   color: var(--black);
+  display: flex;
+  justify-content: center;
 }
 
 button {
