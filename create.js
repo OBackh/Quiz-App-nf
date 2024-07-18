@@ -117,3 +117,5 @@ answerButton.addEventListener("click", () => {
   answerButton.textContent =
     text == "Hide answer" ? "Show answer" : "Hide answer";
 });
+
+// Character Counter
